@@ -7,7 +7,7 @@ pipeline {
    stages {
       stage('Say Hello') {
          steps {
-            sudo echo 'Hello World!'
+            echo 'Hello World!'
          }
       }
    }
